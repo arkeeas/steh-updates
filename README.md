@@ -10,6 +10,8 @@ Instalační soubory a aktualizace aplikace STEH — CAD pomocníka pro sváře�
 2. Pokud Android požádá, povolte instalaci aplikací z tohoto prohlížeče či správce souborů.
 3. Potvrďte **Aktualizovat** (při první instalaci **Instalovat**).
 
+**Pokud prohlížeč nedokončí stažení APK:** stáhněte [ZIP pro telefon](https://github.com/arkeeas/steh-updates/releases/latest/download/steh-android.zip), rozbalte ho a otevřete `steh-arm64.apk`.
+
 Původní aplikaci neodinstalovávejte, aby zůstala zachována její data.
 Verze od 0.2.0 mají v nabídce **Více → Zkontrolovat aktualizace** kontrolu nové verze a nabídku stažení.
 Instalaci vždy potvrzuje uživatel v Androidu. Starší verze je potřeba poprvé aktualizovat tímto odkazem.
