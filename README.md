@@ -1,6 +1,23 @@
-# STEH pro Android
+# STEH pro Android a Windows
 
 Instalační soubory a aktualizace aplikace STEH — CAD pomocníka pro svářeče.
+
+## Windows 11
+
+**[Stáhnout instalátor STEH 0.6.2 pro Windows 11 x64](https://github.com/arkeeas/steh-updates/releases/download/windows-latest/STEH-0.6.2-Windows11-x64-Setup.exe)**
+
+Spusťte instalátor a dokončete průvodce. Aplikace se instaluje pro aktuálního uživatele
+a najdete ji v nabídce Start. Instalační soubor není podepsaný certifikátem vydavatele.
+
+**Bez instalace:** [stáhněte přenosný ZIP](https://github.com/arkeeas/steh-updates/releases/download/windows-latest/STEH-0.6.2-Windows11-x64.zip),
+celý ho rozbalte a spusťte `STEH.exe`. Zachovejte DLL a složku `knihovna` vedle programu.
+
+Aktualizace najdete v **Aktualizace → Zkontrolovat aktualizace** (v úzkém okně v nabídce **Více**).
+Novější verze nabídne stažení instalátoru v prohlížeči. Před jeho spuštěním uložte sestavu a zavřete STEH.
+Ve verzi 0.6.2 se po zveřejnění stejné verze správně zobrazí, že máte aktuální verzi.
+
+[Windows vydání a soubory](https://github.com/arkeeas/steh-updates/releases/tag/windows-latest) ·
+[Kontrolní součty SHA-256](https://github.com/arkeeas/steh-updates/releases/download/windows-latest/STEH-0.6.2-Windows11-SHA256.txt)
 
 ## Telefon nebo tablet
 
@@ -33,6 +50,9 @@ APK je pro zařízení **arm64-v8a**, Android 8.0 a novější. Sestavení pro e
 ## Aktualizační kanál
 
 `releases/latest/download/latest.properties` obsahuje číslo poslední verze a odkazy na konkrétní neměnné APK.
-`library.properties` popisuje samostatné soubory knihovny. Každé vydání obsahuje také `SHA256SUMS`. Aktualizace používají stejný podpis jako původní APK STEH.
+`library.properties` popisuje samostatné soubory knihovny. Každé Android vydání obsahuje také `SHA256SUMS`. Aktualizace používají stejný podpis jako původní APK STEH.
 
-Tento repozitář slouží pouze k distribuci APK a údajů o vydáních. Neobsahuje zdrojový projekt ani podpisový klíč.
+Windows používá samostatné vydání `windows-latest`; Android nadále používá svůj kanál `releases/latest`.
+Windows vydání není označeno jako globální latest, aby odkazy pro Android dál fungovaly.
+
+Tento repozitář slouží pouze k distribuci instalačních balíčků a údajů o vydáních. Neobsahuje zdrojový projekt ani podpisový klíč.
