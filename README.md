@@ -1,23 +1,36 @@
-# STEH pro Android a Windows
+# STEH pro Android, Windows a Linux
 
 Instalační soubory a aktualizace aplikace STEH — CAD pomocníka pro svářeče.
 
 ## Windows 11
 
-**[Stáhnout instalátor STEH 0.6.2 pro Windows 11 x64](https://github.com/arkeeas/steh-updates/releases/download/windows-latest/STEH-0.6.2-Windows11-x64-Setup.exe)**
+**[Stáhnout instalátor STEH 0.7.10 pro Windows 11 x64](https://github.com/arkeeas/steh-updates/releases/download/windows-latest/STEH-0.7.10-Windows11-x64-Setup.exe)**
 
 Spusťte instalátor a dokončete průvodce. Aplikace se instaluje pro aktuálního uživatele
 a najdete ji v nabídce Start. Instalační soubor není podepsaný certifikátem vydavatele.
 
-**Bez instalace:** [stáhněte přenosný ZIP](https://github.com/arkeeas/steh-updates/releases/download/windows-latest/STEH-0.6.2-Windows11-x64.zip),
+**Bez instalace:** [stáhněte přenosný ZIP](https://github.com/arkeeas/steh-updates/releases/download/windows-latest/STEH-0.7.10-Windows11-x64.zip),
 celý ho rozbalte a spusťte `STEH.exe`. Zachovejte DLL a složku `knihovna` vedle programu.
 
 Aktualizace najdete v **Aktualizace → Zkontrolovat aktualizace** (v úzkém okně v nabídce **Více**).
 Novější verze nabídne stažení instalátoru v prohlížeči. Před jeho spuštěním uložte sestavu a zavřete STEH.
-Ve verzi 0.6.2 se po zveřejnění stejné verze správně zobrazí, že máte aktuální verzi.
+Kontrola porovnává nainstalovanou verzi s nejnovějším dostupným instalátorem.
 
 [Windows vydání a soubory](https://github.com/arkeeas/steh-updates/releases/tag/windows-latest) ·
-[Kontrolní součty SHA-256](https://github.com/arkeeas/steh-updates/releases/download/windows-latest/STEH-0.6.2-Windows11-SHA256.txt)
+[Kontrolní součty SHA-256](https://github.com/arkeeas/steh-updates/releases/download/windows-latest/STEH-0.7.10-Windows11-SHA256.txt)
+
+## Co přináší 0.7.10
+
+- **Více → Kalkulace:** rychlé ruční nacenění, vlastní sazby a položky, přirážka, DPH a historie zakázek.
+- **Knihovna → Rozhraní:** Původní, Přehledné a světlá Dílna. Volba se uloží pro další spuštění.
+
+Kalkulace používá vámi zadané sazby. Sazby a vzorce odkazované Google tabulky zatím nebyly převzaty.
+
+## Linux x86_64
+
+[Stáhnout STEH 0.7.10 pro Linux](https://github.com/arkeeas/steh-updates/releases/download/v0.7.10-20/STEH-0.7.10-Linux-x86_64.tar.gz).
+Archiv rozbalte a spusťte `steh-viewer`. Zachovejte přiloženou složku `knihovna`;
+ukázkové sestavy jsou v `Priklady`. [Kontrolní součet SHA-256](https://github.com/arkeeas/steh-updates/releases/download/v0.7.10-20/STEH-0.7.10-Linux-SHA256.txt).
 
 ## Telefon nebo tablet
 
