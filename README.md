@@ -4,12 +4,12 @@ Instalační soubory a aktualizace aplikace STEH — CAD pomocníka pro sváře�
 
 ## Windows 11
 
-**[Stáhnout instalátor STEH 0.7.34 pro Windows 11 x64](https://github.com/arkeeas/steh-updates/releases/download/windows-latest/STEH-0.7.34-Windows11-x64-Setup.exe)**
+**[Stáhnout instalátor STEH 0.7.50 pro Windows 11 x64](https://github.com/arkeeas/steh-updates/releases/download/windows-latest/STEH-0.7.50-Windows11-x64-Setup.exe)**
 
 Spusťte instalátor a dokončete průvodce. Aplikace se instaluje pro aktuálního uživatele
 a najdete ji v nabídce Start. Instalační soubor není podepsaný certifikátem vydavatele.
 
-**Bez instalace:** [stáhněte přenosný ZIP](https://github.com/arkeeas/steh-updates/releases/download/windows-latest/STEH-0.7.34-Windows11-x64.zip),
+**Bez instalace:** [stáhněte přenosný ZIP](https://github.com/arkeeas/steh-updates/releases/download/windows-latest/STEH-0.7.50-Windows11-x64.zip),
 celý ho rozbalte a spusťte `STEH.exe`. Zachovejte DLL a složku `knihovna` vedle programu.
 
 Aktualizace najdete v **Aktualizace → Zkontrolovat aktualizace** (v úzkém okně v nabídce **Více**).
@@ -17,23 +17,21 @@ Novější verze nabídne stažení aktualizace. Před instalací uložte rozpra
 Kontrola porovnává nainstalovanou verzi s nejnovějším dostupným instalátorem.
 
 [Windows vydání a soubory](https://github.com/arkeeas/steh-updates/releases/tag/windows-latest) ·
-[Kontrolní součty SHA-256](https://github.com/arkeeas/steh-updates/releases/download/windows-latest/STEH-0.7.34-Windows11-SHA256.txt)
+[Kontrolní součty SHA-256](https://github.com/arkeeas/steh-updates/releases/download/windows-latest/STEH-0.7.50-Windows11-SHA256.txt)
 
-## Co přináší 0.7.34
+## Co přináší 0.7.50
 
-- **Výkresové studio:** automatické načtení viditelných dílů i při prázdném výběru v Kótách, vlastní rozsah výkresu a průběžné načítání pohledů.
-- **Přehlednější ovládání Studia:** pohledy, obsah listu, profily, PDF a razítko; export a obnova náhledu dostupné nahoře.
-- **Knihovna Kondor:** detaily jeklů, veřejné ceny bez DPH s datem kontroly a oddělené zobrazení rádiusů původního CAD. Ceny se automaticky nepřenášejí do kalkulace.
-- Obsahuje také dosavadní opravy zámků a kolizí, přesouvání kót, barvy dílů a desktopovou MCP integraci.
+- **Oříznuté trubky:** opravené vykreslování a triangulace oříznutých trubek v sestavách, včetně Airwolf.
 
-Android má verzi **0.7.34 / code 43 / data 8**. Windows a Linux mají stejnou verzi **0.7.34**.
+Android má verzi **0.7.50 / code 49 / data 9**. Windows a Linux mají stejnou verzi **0.7.50**.
+Starší změny jsou v [seznamu vydání](https://github.com/arkeeas/steh-updates/releases).
 
 ## Linux x86_64
 
-[Stáhnout STEH 0.7.34 pro Linux](https://github.com/arkeeas/steh-updates/releases/download/linux-latest/STEH-0.7.34-Linux-x86_64.tar.gz).
+[Stáhnout STEH 0.7.50 pro Linux](https://github.com/arkeeas/steh-updates/releases/download/linux-latest/STEH-0.7.50-Linux-x86_64.tar.gz).
 Archiv rozbalte a spusťte `STEH`, případně `install.sh` pro instalaci do nabídky aplikací.
 Vyžaduje x86_64 / glibc 2.43+ (Ubuntu 26.04). Zachovejte přiloženou složku `knihovna`;
-ukázkové sestavy jsou v `Priklady`. [Kontrolní součet SHA-256](https://github.com/arkeeas/steh-updates/releases/download/linux-latest/STEH-0.7.34-Linux-SHA256.txt).
+ukázkové sestavy jsou v `Priklady`. [Kontrolní součet SHA-256](https://github.com/arkeeas/steh-updates/releases/download/linux-latest/STEH-0.7.50-Linux-SHA256.txt).
 
 ## Telefon nebo tablet
 
